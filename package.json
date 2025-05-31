@@ -1,0 +1,17 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sample": "prism mock petstore-expanded.yaml",
+    "mockoon-cli": "mockoon-cli start --data ./petstore-expanded.yaml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mockoon/cli": "^9.2.0",
+    "@stoplight/prism-cli": "^5.14.2"
+  }
+}
